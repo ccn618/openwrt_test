@@ -57,7 +57,7 @@ jobs:
       - name: Generate configuration file
         run: |
           cp ./uploadconfig/Clark.config ./.config
-          make defconfig
+#          make defconfig
       - name: Make download
         run: |
           make download -j8
